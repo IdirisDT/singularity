@@ -1,3 +1,4 @@
 export default [
-  'NX Ravager'
+  'NX Ravager',
+  'GDL HAVOC',
 ]
