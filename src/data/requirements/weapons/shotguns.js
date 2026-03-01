@@ -77,6 +77,28 @@ const specialCamouflages = {
       "Shimmer": {"amount": 5, "type": "kills_while_moving"},
       "Tyrant": {"amount": 5, "type": "kills_while_sliding"},
       "Trace": {"amount": 5, "type": "hipfire_kills"}
+    },
+
+  "SG-12": {
+    "multiplayer": {
+      "Diamondback": { "amount": 50, "type": "kills_with_8_attachments" },
+      "Raptor": { "amount": 30, "type": "hipfire_kills" },
+      "Mainframe": { "amount": 30, "type": "kills_objective" }
+    },
+    "zombies": {
+      "Mutilate": { "amount": 300, "type": "hipfire_kills"},
+      "Slither": { "amount": 10, "type": "kills_without_reloading", "times": 15 },
+      "Pathfinder": { "amount": 75, "type": "armored_zombie_kills" }
+    },
+    "campaign": {
+      "Cinder": { "amount": 50, "type": "kills_while_moving_ads"},
+      "Caiman": { "amount": 50, "type": "hipfire_kills"},
+      "Network": { "amount": 100, "type": "kills_with_8_attachments"}
+    },
+    "warzone": {
+      "Shimmer": {"amount": 5, "type": "kills_while_moving"},
+      "Tyrant": {"amount": 5, "type": "kills_while_sliding"},
+      "Trace": {"amount": 5, "type": "hipfire_kills"}
     }
   }
 }
