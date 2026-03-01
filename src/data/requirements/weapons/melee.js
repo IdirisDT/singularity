@@ -77,9 +77,33 @@ const specialCamouflages = {
       "Shimmer": {"amount": 2, "type": "kills_while_moving"},
       "Tyrant": {"amount": 2, "type": "kills_without_taking_damage"},
       "Trace": {"amount": 2, "type": "kills_shortly_after_sprinting"}
+    },
+
+  "H311-SAW": {
+    "multiplayer": {
+      "Diamondback": {"amount": 10, "type": "kills_with_heavy_melee"},
+      "Raptor": {"amount": 15, "type": "kills_while_sliding"},
+      "Mainframe": {"amount": 30, "type": "kills_objective"}
+    },
+    "zombies": {
+      "Mutilate": {"amount": 300, "type": "kills_with_ammo_mod", "mod": "Brain Rot" },
+      "Slither": {"amount": 300, "type": "kills_at_rare_rarity_or_higher" },
+      "Pathfinder": {"amount": 300, "type": "kills_with_ammo_mod", "mod": "Napalm Burst" }
+    },
+    "campaign": {
+      "Cinder": {"amount": 25, "type": "kills_shortly_after_switching_weapons"},
+      "Caiman": {"amount": 100, "type": "specific_enemy_kills", "enemy": 'Human' },
+      "Network": {"amount": 50, "type": "kills_shortly_after_sprinting" }
+    },
+    "warzone": {
+      "Shimmer": {"amount": 2, "type": "kills_while_killstreak_active"},
+      "Tyrant": {"amount": 2, "type": "kills_without_taking_damage"},
+      "Trace": {"amount": 2, "type": "kills_shortly_after_sprinting"}
     }
   }
 }
+
+"kills_with_heavy_melee"
 
 export default {
   ...melee.reduce((acc, weapon) => {
@@ -107,4 +131,5 @@ export default {
     }
     return acc
   }, {}),
+
 }
