@@ -31,6 +31,28 @@ const specialCamouflages = {
       "Shimmer": { "type": "TBD" },
       "Tyrant": { "type": "TBD" },
       "Trace": { "type": "TBD" }
+    },
+
+     "GDL Havoc": {
+    "multiplayer": {
+      "Diamondback": { "type": "TBD" },
+      "Raptor": { "type": "TBD" },
+      "Mainframe": { "type": "TBD" }
+    },
+    "zombies": {
+      "Mutilate": { "type": "TBD" },
+      "Slither": { "type": "TBD" },
+      "Pathfinder": { "type": "TBD" }
+    },
+    "campaign": {
+      "Cinder": { "type": "TBD" },
+      "Caiman": { "type": "TBD" },
+      "Network": { "type": "TBD" }
+    },
+    "warzone": {
+      "Shimmer": { "type": "TBD" },
+      "Tyrant": { "type": "TBD" },
+      "Trace": { "type": "TBD" }
     }
   }
 }
