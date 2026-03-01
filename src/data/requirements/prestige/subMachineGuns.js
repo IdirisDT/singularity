@@ -43,6 +43,12 @@ const universalCamouflages = {
     "PrestigeB": { amount: 2, type: "weapon_prestige" },
     "PrestigeC": { amount: 250, type: "weapon_prestige_master" },
   },
+    "REV-46": {
+        "Heatmap": { "amount": 1, "type": "weapon_prestige" },
+        "Leaf": { "amount": 2, "type": "weapon_prestige" },
+        "Rosette": { "amount": 250, "type": "weapon_prestige_master" }
+    }
 }
 
 export default generatePrestigeConfig(subMachineGuns, universalCamouflages, PRESTIGE_CAMOS)
+
