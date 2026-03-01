@@ -19,7 +19,14 @@ const universalCamouflages = {
         "Shattered": { "amount": 1, "type": "weapon_prestige" },
         "Cohesion": { "amount": 2, "type": "weapon_prestige" },
         "Koi Pond": { "amount": 250, "type": "weapon_prestige_master" }
-    }
+    },
+    "Swordfish A1": {
+    "PrestigeA": { amount: 1, type: "weapon_prestige" },
+    "PrestigeB": { amount: 2, type: "weapon_prestige" },
+    "PrestigeC": { amount: 250, type: "weapon_prestige_master" },
+  },
 }
+}
+
 
 export default generatePrestigeConfig(marksmanRifles, universalCamouflages, PRESTIGE_CAMOS)
