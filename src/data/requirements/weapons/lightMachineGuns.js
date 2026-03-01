@@ -60,7 +60,7 @@ const specialCamouflages = {
   "Sokol 545": {
     "multiplayer": {
       "Diamondback": { "amount": 30, "type": "kill_while_affected_by_tactical_or_non_lethal_scorestreak" },
-      "Raptor": { "amount": 50, "type": "kills_while_wildcard_is_equipped_and_8_attachments", "wildcard": "Gunfighter" }
+      "Raptor": { "amount": 50, "type": "kills_while_wildcard_is_equipped_and_8_attachments", "wildcard": "Gunfighter" },
       "Mainframe": { "amount": 2, "type": "kills_without_releasing_trigger", "times": 5 }
     },
     "zombies": {
@@ -70,7 +70,7 @@ const specialCamouflages = {
     },
     "campaign": {
       "Cinder": { "amount": 50, "type": "specific_enemy_kills", "enemy": 'Guild Tech' },
-      "Caiman": { "amount": 3, "times": 10, "type": "kills_without_reloading", "times": 10 },
+      "Caiman": { "amount": 3, "type": "kills_without_reloading", "times": 10 },
       "Network": { "amount": 100, "type": "kills_while_moving_ads" }
     },
     "warzone": {

@@ -15,21 +15,21 @@ export const weaponMetadata = {
   // Assault Rifle
     'Maddox RFB': { season: 1, releaseDate: '2025-12-04' },
     'EGRT-17': { season: 2, releaseDate: '2026-02-05' },
-    'Voyak KT-3': { season: 2, releaseDate: '2026-03-31' }
+    'Voyak KT-3': { season: 2, releaseDate: '2026-03-31' },
 
   // Submachine Gun
     'Kogot-7': { season: 1, releaseDate: '2025-12-04' },
     'Sturmwolf 45': { season: 1, releaseDate: '2025-12-31' },
-    'Rev-46': { season: 2, releaseDate: '2026-02-05' }
+    'Rev-46': { season: 2, releaseDate: '2026-02-05' },
 
   // Shotgun (none yet)
-    'SG-12': { season: 2, releaseDate: '2026-02-19' }
+    'SG-12': { season: 2, releaseDate: '2026-02-19' },
 
   // Light Machine Gun
     'Sokol 545': { season: 1, releaseDate: '2025-12-31' },
 
   // Marksman Rifle (none yet)
-    'Swordfish A1': { season: 2, releaseDate: '2026-03-31' }
+    'Swordfish A1': { season: 2, releaseDate: '2026-03-31' },
 
   // Sniper Rifle
     'Hawker HX': { season: 1, releaseDate: '2025-12-31' },
@@ -40,7 +40,7 @@ export const weaponMetadata = {
 
   // Melee
     'Ballistic Knife': { season: 1, releaseDate: '2025-12-04' },
-    'H311-SAW': { season: 2, releaseDate: '2026-02-05' }
+    'H311-SAW': { season: 2, releaseDate: '2026-02-05' },
 
   // Special
     'NX Ravager': { season: 1, releaseDate: '2025-12-11' },

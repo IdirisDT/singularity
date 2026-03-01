@@ -43,7 +43,7 @@ const universalCamouflages = {
     "Olive": { amount: 2, type: "weapon_prestige" },
     "Vines": { amount: 250, type: "weapon_prestige_master" },
   },
-  "REV-46": {
+  "Rev-46": {
     "Heatmap": { "amount": 1, "type": "weapon_prestige" },
     "Leaf": { "amount": 2, "type": "weapon_prestige" },
     "Rosette": { "amount": 250, "type": "weapon_prestige_master" }
