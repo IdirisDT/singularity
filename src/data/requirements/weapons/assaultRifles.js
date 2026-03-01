@@ -169,6 +169,28 @@ const specialCamouflages = {
       "Shimmer": { "amount": 5, "type": "headshots" },
       "Tyrant": { "amount": 5, "type": "kills_without_taking_damage" },
       "Trace": { "amount": 5, "type": "kills_shortly_after_sprinting" }
+    },
+
+    "EGRT-17": {
+    "multiplayer": {
+      "Diamondback": { "amount": 30, "type": "kills_without_taking_damage" },
+      "Raptor": { "amount": 50, "type": "kills_while_moving" },
+      "Mainframe": { "amount": 30, "type": "kill_while_affected_by_tactical_or_non_lethal_scorestreak" }
+    },
+    "zombies": {
+      "Mutilate": { "amount": 150, "type": "kills_with_tier_armor", "tier": 2 },
+      "Slither": { "amount": 300, "type": "kills_with_ammo_mod", "mod": "Dead Wire" },
+      "Pathfinder": { "amount": 300, "type": "kills_while_pack_a_punched" }
+    },
+    "campaign": {
+      "Cinder": { "amount": 50, "type": "point_blank_kills" },
+      "Caiman": { "amount": 100, "type": "kills_with_8_attachments" },
+      "Network": { "amount": 50, "type": "specific_enemy_kills", "enemy": "Guild Tech" }
+    },
+    "warzone": {
+      "Shimmer": { "amount": 5, "type": "headshots" },
+      "Tyrant": { "amount": 5, "type": "kills_without_taking_damage" },
+      "Trace": { "amount": 5, "type": "kills_shortly_after_sprinting" }
     }
   }
 }
@@ -199,4 +221,5 @@ export default {
     }
     return acc
   }, {}),
+
 }
