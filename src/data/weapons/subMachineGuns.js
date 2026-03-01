@@ -7,5 +7,5 @@ export default [
   'MPC-25',
   'Kogot-7',
   'Sturmwolf 45',
-  'Rev-46',
+  'Rev-46'
 ]
