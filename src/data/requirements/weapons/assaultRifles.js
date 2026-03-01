@@ -191,6 +191,28 @@ const specialCamouflages = {
       "Shimmer": { "amount": 5, "type": "headshots" },
       "Tyrant": { "amount": 5, "type": "kills_without_taking_damage" },
       "Trace": { "amount": 5, "type": "kills_shortly_after_sprinting" }
+    },
+
+    "Voyak KT-3": {
+    "multiplayer": {
+      "Diamondback": { "amount": 30, "type": "TBD"},
+      "Raptor": { "amount": 50, "type": "TBD"},
+      "Mainframe": { "amount": 30, "type": "TBD"}
+    },
+    "zombies": {
+      "Mutilate": { "amount": 150, "type": "TBD"},
+      "Slither": { "amount": 300, "type": "TBD"},
+      "Pathfinder": { "amount": 300, "type": "TBD" }
+    },
+    "campaign": {
+      "Cinder": { "amount": 50, "type": "TBD"},
+      "Caiman": { "amount": 100, "type": "TBD"},
+      "Network": { "amount": 50, "type": "TBD"}
+    },
+    "warzone": {
+      "Shimmer": { "amount": 5, "type": "TBD"},
+      "Tyrant": { "amount": 5, "type": "TBD"},
+      "Trace": { "amount": 5, "type": "TBD"}
     }
   }
 }
@@ -223,3 +245,4 @@ export default {
   }, {}),
 
 }
+
